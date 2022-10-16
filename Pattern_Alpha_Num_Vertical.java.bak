@@ -1,0 +1,55 @@
+class Pattern_Alpha_Num_Vertical
+{
+	public static void main(String[] args) 
+	{
+		int num = 1;
+
+		char ch = 'a';
+
+		int temp = num+4;
+			
+		char c = 'e' ;
+
+		for (int i = 1; i <=4 ; i++)
+		{
+
+			for (int j = 1; j <=1 ; j++)
+			{
+
+				if (j%2 != 0 || j%2 == 0)
+				{
+					System.out.print(num + " ");
+
+					System.out.print(ch+ " ");
+					
+					System.out.print(temp+ " ");
+
+					System.out.print(c + " ");
+
+					System.out.println();
+
+					num++;
+					ch++;
+					c++;
+					temp++;
+
+					
+
+					break;
+				}
+				else
+				{
+
+					System.out.print("Enter correct input");
+
+					break;
+				}
+				
+				
+			}
+			
+
+		}
+	}
+
+}
